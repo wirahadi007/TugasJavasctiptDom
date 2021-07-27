@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style-bio.css">
+    <title>Biodata</title>
+</head>
+<body>
+    <h1>Biodata</h1>
+    <div class="input-form">
+        <form>
+            <label for="name">Nama</label>  
+            <input type="text" name="name" id="name">
+
+            <label for="address">Alamat</label>
+            <input type="text" name="address" id="address">
+
+            <label for="dateOfBirth">Tanggal Lahir</label>
+            <input type="date" name="dateOfBirth" id="dateOfBirth">
+            
+            <div class="gender"> 
+                <label for="gender">Jenis Kelamin</label>
+                <div>
+                    <div>
+                        <input type="radio" name="gender" id="pria" value="Pria">
+                        <label for="pria">Pria</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" id="wanita" value="Wanita">
+                        <label for="wanita">Wanita</label>
+                    </div>
+                </div>
+            </div>
+
+            <label for="lastEducation">Pendidikan Terakhir</label>
+            <input type="text" name="lastEducation" id="lastEducation">
+
+            <button type="submit" id="btnSubmit">Submit</button>
+        </form>
+    </div>
+    <script src="js/bio.js"></script>
+</body>
+</html>

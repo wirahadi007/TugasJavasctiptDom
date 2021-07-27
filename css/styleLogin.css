@@ -1,0 +1,88 @@
+body {
+    background-color: #3f2ceb;
+}
+
+body * {
+    color: #40514E;
+}
+
+.content { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+.content h1{
+    color: black;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px;
+    flex-direction: row;
+}
+.container-nav a{
+    color: black;
+}
+
+.button {
+    list-style-type: none;
+    padding: 10px 32px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.5 ease-out;
+    margin: 10px 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-form {
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    margin: 65px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    text-align: center;
+
+}
+.content { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+form > * {    
+    display: block;
+    margin: 10px;
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+form input{
+    border: solid royalblue 1px;
+}
+
+#btnLogin {
+    margin: auto;
+    background-color: #ee0a65;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#btnLogin:hover {
+    opacity: 0.7;
+}
